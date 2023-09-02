@@ -31,7 +31,7 @@ main {
     position: absolute;
     background-color: white;
     width: 300px;
-    height: 600px;
+    height: 580px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -58,22 +58,40 @@ main {
     font-size: 0.9em;
 }
 
-span {
-    color: white;
-}
-
-.icones {
+.igeral {
     background-color: var(--cor1);
-    padding: 2px 0px 1px 10px;
-    border-radius: 5px;
+    color: white;
+    width:100%;
+    padding: 5px 0;
     margin: 5px 0;
-}
-
-.icones input {
-    background-color: var(--cor0);
     font-size: 1em;
-    padding: 10px 5px;
     border-radius: 10px;
 }
 
+.igeral input {
+    background-color: var(--cor0);
+    padding: 5px;
+    font-size: 1.1em;
+    border-radius: 10px;
+}
 
+#entrar {
+    background-color: var(--cor0);
+    padding: 10px;
+    border: none;
+}
+
+#entrar:hover {
+    background-color: #408886;
+}
+
+#esqueci {
+    background-color: white;
+    color: #408886;
+    padding: 10px;
+    border: 1px solid #408886;
+}
+
+#esqueci:hover {
+    background-color: var(--cor0);
+}

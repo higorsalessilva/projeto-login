@@ -4,10 +4,11 @@
     Paleta de cores
     Verde: #49a09d
     Lilás: #5f2c82
+    Verde2: #68e0dc
 */
 
 :root {
-    --cor0: #68e0dc;
+    --cor0: #49a09d;
     --cor1: #5f2c82;
 }
 
@@ -57,18 +58,27 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+
+    /*text-align: center;*/
+}
+
+div#formulario > h1 {
     text-align: center;
+    margin-bottom: 10px;
 }
 
-/* conferido ate aqui*/
+div#formulario > p {
+    font-size: 0.8em;
 
-#formulario > p {
     text-align: left;
-    padding-top: 10px;
-    font-size: 0.9em;
+    padding-top: 10px; 
 }
 
-.igeral {
+/* conferido ate aqui
+
+
+
+.campo {
     background-color: var(--cor1);
     color: white;
     width:100%;
@@ -78,7 +88,7 @@ section#login > div#formulario {
     border-radius: 10px;
 }
 
-.igeral input {
+.campo input {
     background-color: var(--cor0);
     padding: 5px;
     font-size: 1.1em;
@@ -105,3 +115,4 @@ section#login > div#formulario {
 #esqueci:hover {
     background-color: var(--cor0);
 }
+*/
